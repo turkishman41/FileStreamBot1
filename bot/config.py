@@ -11,9 +11,9 @@ class Telegram:
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://127.0.0.1:8041")
+    BASE_URL = env.get("BASE_URL", "http://50.dto41.ir:50")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
-    PORT = int(env.get("PORT", 8041))
+    PORT = int(env.get("PORT", 50))
 
 # LOGGING CONFIGURATION
 LOGGER_CONFIG_JSON = {
